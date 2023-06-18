@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+    <h1 class="game-mode">Game Mode!</h2>
+        <h2 class="turn">.</h2>
+
+
+        <div class="mode">
+            <h3>Game Mode</h3>
+            <input type="checkbox" id="single" class="modes">
+            <label class="lable"> Single Player</label>
+            <input type="checkbox" id="multi" class="modes">
+            <label class="lable">Multiplayer Player</label>
+        </div>
+        <button id="start" class="bt">Start</button>
+        <button id="new" class="bt">New Game</button>
+        <table>
+            <tr>
+                <td><button class="btn" value="0" id="1"></button></td>
+                <td class="vertical-lines"><button class="btn" value="0" id="2"></button></td>
+                <td><button class="btn" value="0" id="3"></button></td>
+            </tr>
+            <tr>
+                <td class="horizontal-lines"><button class="btn" value="0" id="4"></button></td>
+                <td class="vertical-lines horizontal-lines"><button class="btn" value="0" id="5"></button></td>
+                <td class="horizontal-lines"><button class="btn" value="0" id="6"></button></td>
+            </tr>
+            <tr>
+                <td><button class="btn" value="0" id="7"></button></td>
+                <td class="vertical-lines"><button class="btn" value="0" id="8"></button></td>
+                <td><button class="btn" value="0" id="9"></button></td>
+            </tr>
+        </table>
+
+        <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+</body>
+
+</html>
